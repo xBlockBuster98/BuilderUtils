@@ -1,0 +1,13 @@
+name: BuilderUtils
+version: '${version}'
+main: dev.blockbuster.builderutils.BuilderUtils
+api-version: 1.18
+authors: [ xBlockBuster98 ]
+description: A useful plugin to predict unintentional block breaking, for example when you are in creative mode and accidentally break blocks. This plugin will basically block the breaking/placing of blocks by default, and only with a command you can break or place blocks.
+
+commands:
+  builder:
+    description: A useful plugin to predict unintentional block breaking, for example when you are in creative mode and accidentally break blocks. This plugin will basically block the breaking/placing of blocks by default, and only with a command you can break or place blocks.
+    usage: /builder
+    aliases: [ builder ]
+    permission: builder.admin
